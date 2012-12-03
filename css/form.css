@@ -1,0 +1,85 @@
+/*
+------------Old Form--------
+ .form_column1{
+	float:left;
+	width:200px;
+	padding-bottom:10px;
+}
+.form_column_mid{
+	float:left;
+	width:100px;
+	padding: left:05px;
+}
+.form_column2{
+	float:right;
+	padding-bottom:10px;
+	padding-left:10px;
+	
+}
+.form_column2 li{
+}
+.form li{
+	
+	padding-bottom: 1em;  
+	margin-right: 1em;
+}  
+
+.formclear{
+	clear:both;
+}
+label{
+	display:block;
+}
+#form{
+	
+}
+.nolist{
+	list-style:none;
+	
+}
+.form_column_3{
+padding:5px;
+}
+
+*/
+.column1{
+	float:left;
+	width:200px;
+	padding-bottom:10px;
+}
+.column_mid{
+	float:left;
+	width:100px;
+	padding: left:05px;
+}
+.column2{
+	float:right;
+	padding-bottom:10px;
+	padding-left:10px;
+	
+}
+.column2 li{
+}
+.form li{
+	
+	padding-bottom: 1em;  
+	margin-right: 1em;
+}  
+
+.formclear{
+	clear:both;
+}
+label{
+	display:block;
+}
+#form{
+	
+}
+.nolist{
+	list-style:none;
+	
+}
+.column_3{
+padding:5px;
+}
+
