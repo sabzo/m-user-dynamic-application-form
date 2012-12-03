@@ -2,7 +2,16 @@ Object Oriented PHP & MySQL Application for building a Dynamic Multi user - Mult
 Original Code by Sabelo Mhlambi
 Purpose:
 Customized for an Academic Research Institution where single applicant or research team can apply for research grant under guidance of mentor.
+Students have a Many-Many relationship with the Faculty Mentors. The application allows for this to be represented.
 
 Application starts in: journal/include/participants.php where the application records the basic details of the user. 
 
 CSS/HTML/Ajax/Javascript
+
+MVC: The View is located in the journal/include folder and involves PHP files that primarily serve to display the HTML and CSS.
+
+The Controller is located in journal/process/sessions.php. It decides what classes, error checks to call based on the individual page that makes a call to it.
+This "sessions.php" file also serves to mantian the session of the form as well as decides when to update the database.
+
+The Model is located in journal/include and journal/edit folders. The model consists of the classes for error checking and the classes for representing
+Students and Mentors.
